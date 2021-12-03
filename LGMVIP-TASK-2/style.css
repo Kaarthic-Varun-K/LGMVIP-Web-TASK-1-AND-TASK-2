@@ -1,0 +1,79 @@
+body{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, rgba(58, 19, 199, 0.61), rgba(5, 43, 0, 0.616),rgba(14, 9, 0, 0.61)),url(bg1.jpg) center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:800px;
+    left:0px;
+   
+}
+.head
+ {
+    height:300px;
+    width:100%; 
+    
+    
+    background-repeat: no-repeat;
+    border-bottom:2px solid #ef233c;
+    padding-top: 60px;
+    font-size: 50px;
+    color:#ffd60a;   
+}
+.btn{
+    position:center;
+    top:5px;
+    right:20px;  
+}
+button{
+    color:rgb(255, 0, 78);
+    height:35px;
+    width:100px;
+
+    background-image: linear-gradient(rgb(253, 180, 34)),(rgb(255, 0, 78));
+    border-radius: 10px;  
+}
+button btn :hover{
+    background-color: #ffd60a;
+}
+
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:rgb(22, 202, 142);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:#ef233c;
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color:#ffd60a;
+    padding-top: 120px;
+}
+.h4{
+    color:#ffd60a;
+}
